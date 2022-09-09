@@ -1,0 +1,28 @@
+<!-- 
+pseudo elements start with :: -> after,before,firstletter,firstline,
+pseudo class start with :  -> hover,active, visit, link (mainly based on anchor tags)
+pseudo selectors : -> firstschild,lastchild, nthchild,is,where
+-->
+
+   <!-- nthchiled(2n) => even childs and 2n-1 odd chi    -->
+  <!-- is and where is same just is have more specificity so ":is" is better -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :is(aside,section) p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section><p>lol</p></section>
+    <aside><p>lol2</p></aside>
+    
+</body>
+</html>
