@@ -1,0 +1,6 @@
+px - pixels --> use as a small pixel box
+Percentage (%) --> based on your screen size, means the area you can only see not the scroolbar
+em --> work as that's parent element 
+rem --> work as root element
+ch - character --> we can set in a line there will only 40 characters
+vh/vw --> same like pecentage but take the whole monitor size so take take scroolbar size also
